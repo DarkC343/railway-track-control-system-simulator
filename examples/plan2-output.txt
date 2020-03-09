@@ -1,0 +1,27 @@
+$ ./mts plan2.txt 
+00:00:01.0 Train  0 is ready to go West
+00:00:01.0 Train  0 is ON the main track going West
+00:00:01.0 Train  2 is ready to go West
+00:00:02.1 Train  1 is ready to go East
+00:00:03.1 Train  3 is ready to go East
+00:00:06.0 Train  0 is OFF the main track after going West
+00:00:06.0 Train  3 is ON the main track going East
+00:00:07.5 Train  3 is OFF the main track after going East
+00:00:07.5 Train  2 is ON the main track going West
+00:00:10.5 Train  2 is OFF the main track after going West
+00:00:10.5 Train  1 is ON the main track going East
+00:00:16.5 Train  1 is OFF the main track after going East
+OR
+$ ./trains ex2.txt 
+00:00:01.0 Train  2 is ready to go West
+00:00:01.0 Train  2 is ON the main track going West
+00:00:01.0 Train  0 is ready to go West
+00:00:02.1 Train  1 is ready to go East
+00:00:03.2 Train  3 is ready to go East
+00:00:04.0 Train  2 is OFF the main track after going West
+00:00:04.0 Train  3 is ON the main track going East
+00:00:05.5 Train  3 is OFF the main track after going East
+00:00:05.5 Train  1 is ON the main track going East
+00:00:11.5 Train  1 is OFF the main track after going East
+00:00:11.5 Train  0 is ON the main track going West
+00:00:16.5 Train  0 is OFF the main track after going West
